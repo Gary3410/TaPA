@@ -10,7 +10,7 @@ Official implementation of **Embodied Task Planning with Large Language Models**
 Try out the web demo 🤗 of TaPA: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/xuxw98/TAPA)
 
 The repository contains:
-- The [15K data](#Data Release) used for fine-tuning the model.
+- The [15K data](#data release) used for fine-tuning the model.
 - The code for [generating the data](#data-generation-process).
 - The code for [fine-tuning the model](#fine-tuning) by using [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama).
 - The code for [inference](#Running the inference) by using [Detic](https://github.com/facebookresearch/Detic).
