@@ -127,7 +127,7 @@ For more details on the installation and usage of AI2-THOR, please visit [AI2-TH
 
 
 ## Data Release
-[`alpaca_15k_instruction.json`](./alpaca_15k_instruction.json) contains 15K instruction-following data we used for fine-tuning the LLaMA-7B model.
+[`alpaca_15k_instruction.json`](.data/alpaca/alpaca_15k_instruction.json) contains 15K instruction-following data we used for fine-tuning the LLaMA-7B model.
 
 The format is the same as [Aplaca](https://github.com/tatsu-lab/stanford_alpaca#data-release). Each dictionary contains the following fields:
 
