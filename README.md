@@ -1,6 +1,6 @@
 <div align="center">
 <img src="./howto/figure/TaPA.png" alt="TaPA" width="256"/>
-
+</div>
 
 # TaPA
 Official implementation of ['Embodied Task Planning with Large Language Models'](https://arxiv.org/pdf/2303.16199.pdf). 
