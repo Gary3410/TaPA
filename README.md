@@ -13,7 +13,7 @@ The repository contains:
 - The [15K data](#data-release) used for fine-tuning the model.
 - The code for [generating the data](#data-generation-process).
 - The code for [fine-tuning the model](#fine-tuning) by using [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama).
-- The code for [inference](#Running the inference) by using [Detic](https://github.com/facebookresearch/Detic).
+- The code for [inference](#Running-the-inference) by using [Detic](https://github.com/facebookresearch/Detic).
 
 ## News
 - **[2023.07.04]**  The **training code** for **TaPA** are released. 📌
@@ -127,7 +127,7 @@ For more details on the installation and usage of AI2-THOR, please visit [AI2-TH
 
 
 ## Data Release
-[`alpaca_15k_instruction.json`](.data/alpaca/alpaca_15k_instruction.json) contains 15K instruction-following data we used for fine-tuning the LLaMA-7B model.
+[`alpaca_15k_instruction.json`](./data/alpaca/alpaca_15k_instruction.json) contains 15K instruction-following data we used for fine-tuning the LLaMA-7B model.
 
 The format is the same as [Aplaca](https://github.com/tatsu-lab/stanford_alpaca#data-release). Each dictionary contains the following fields:
 
