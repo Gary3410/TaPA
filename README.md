@@ -1,17 +1,20 @@
 <div align="center">
 <img src="./howto/figure/TaPA.png" alt="TaPA" width="256"/>
+
+# TaPA
 </div>
 
 # TaPA
-Official implementation of ['Embodied Task Planning with Large Language Models'](https://arxiv.org/pdf/2303.16199.pdf). 
+Official implementation of **Embodied Task Planning with Large Language Models**. 
+Try out the web demo 🤗 of TaPA: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/xuxw98/TAPA)
 The repository contains:
-- The [15K data](#data-release) used for fine-tuning the model.
+- The [15K data](#Data Release) used for fine-tuning the model.
 - The code for [generating the data](#data-generation-process).
 - The code for [fine-tuning the model](#fine-tuning) by using [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama).
-- The code for [inference](#inference) by using [Detic](https://github.com/facebookresearch/Detic).
+- The code for [inference](#Running the inference) by using [Detic](https://github.com/facebookresearch/Detic).
 
 ## News
-- **[2023.07.01]**  The [paper](https://arxiv.org/pdf/2303.16199.pdf) and [training code](alpaca_finetuning_v1) for **TaPA** are released. 📌
+- **[2023.07.04]**  The **training code** for **TaPA** are released. 📌
 
 ## Overview
 
@@ -53,6 +56,7 @@ pip install deepspeed
 11. pip install datasets
 12. pip install zstandard
 13. pip install lightning==2.1.0.dev0
+14. pip install deepspeed
 
 </details>
 
@@ -103,7 +107,7 @@ tapa
 ├── tools
 ......
 ```
-If you want to make your own dataset, please install the openAI API and AI2THOR.
+If you want to make your own dataset, please install the openAI API and AI2-THOR.
 ```bash
 # Install OpenAI API
 pip install openai
@@ -112,8 +116,12 @@ pip install urllib3==1.25.11
 
 # Install AI2THOR
 pip install ai2thor
+
+# If this is your first installation, please run
+python prepare_thor.py
+# to download the necessary scene resources
 ```
-For more details on the installation and usage of AI2THOR, please visit [AI2THOR](https://github.com/allenai/ai2thor).
+For more details on the installation and usage of AI2-THOR, please visit [AI2-THOR](https://github.com/allenai/ai2thor).
 
 
 ## Data Release
@@ -229,7 +237,7 @@ CUDA_VISIBLE_DEVICES=0,1 python finetune/adapter.py
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python finetune/adapter.py
 ```
 
-### Running the finetuning
+### Running the inference
 You can test the finetuned model with your own instructions by running:
 ```bash
 python generate/adapter_robot.py \
@@ -253,8 +261,8 @@ If you want to create your own validation set, you can perform the dataset gener
 
 Once the validation set generation is complete, run:
 ```bash
-python generate/adapter_detic_robot_eval_random.py --navigation-strategy Select one of the random strategies
-python generate/adapter_detic_robot_eval_traversal.py --navigation-strategy Select one of the traversal strategies
+python generate/adapter_detic_robot_eval_random.py --navigation_strategy Select one of the random strategies
+python generate/adapter_detic_robot_eval_traversal.py --navigation_strategy Select one of the traversal strategies
 ```
 
 ## Contributors
