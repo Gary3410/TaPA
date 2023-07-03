@@ -36,7 +36,7 @@ Here is a from-scratch script for **TaPA**.
 conda create -n tapa python=3.10
 conda activate tapa
 git clone https://github.com/Gary3410/tapa
-cd tapa
+cd TaPA
 pip install -r requirements.txt
 # If you want to utilize more than one GPU
 pip install deepspeed
@@ -48,7 +48,7 @@ pip install deepspeed
 1. conda create -n tapa python=3.10
 2. conda activate tapa
 3. git clone https://github.com/Gary3410/tapa
-4. cd tapa
+4. cd TaPA
 5. pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
 6. pip install sentencepiece
 7. pip install tqdm
@@ -64,7 +64,7 @@ pip install deepspeed
 
 ```bash
 # Install Detic
-# Exit the tapa file first
+# Exit the TaPA file first
 cd ..
 git clone git@github.com:facebookresearch/detectron2.git
 cd detectron2
@@ -80,9 +80,9 @@ Meanwhile, you also need to download the appropriate pre-trained model and put t
 
 Once the installation is complete, we need to copy the files from **Detic** to the **tapa** directory.
 
-The tapa file directory should be:
+The TaPA file directory should be:
 ```
-tapa
+TaPA
 ├── checkpoints
 │   ├── lit-llama
 │   ├── llama
@@ -182,7 +182,7 @@ Please request access to the pre-trained LLaMA from [this form](https://forms.gl
 
 Then, put them in the `checkpoints` directory.
 ```
-tapa
+TaPA
 ├── checkpoints
 │   ├── lit-llama
 │   ├── llama
@@ -199,7 +199,7 @@ python scripts/convert_checkpoint.py --model_size 7B
 ```
 Once converted, you should have a folder like this:
 ```
-tapa
+TaPA
 ├── checkpoints
 │   ├── lit-llama
 │   │   ├── 7B
