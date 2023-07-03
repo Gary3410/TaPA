@@ -1,0 +1,422 @@
+[
+  {
+    "instruction": "Can you make me a sandwich?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Toaster, Fork, Potato, Mirror, GarbageBag, AluminumFoil, Sink, Plate, Cup, CounterTop, SoapBottle, Shelf, Chair, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, DishSponge, SideTable]",
+    "output": "\nStep 1. Open the fridge\nStep 2. Grasp the bread\nStep 3. Close the fridge\nStep 4. Move to the counter\nStep 5. Place the bread on the counter\nStep 6. Open the drawer\nStep 7. Grasp a knife\nStep 8. Close the drawer\nStep 9. Move to the tomato\nStep 10. Grasp the tomato\nStep 11. Move to the lettuce\nStep 12. Grasp the lettuce\nStep 13. Move to the bread\nStep 14. Use the knife to cut the tomato and lettuce and place them on the bread\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan21"
+  },
+  {
+    "instruction": "Can you turn on the coffee machine?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Toaster, Fork, Potato, Mirror, GarbageBag, AluminumFoil, Sink, Plate, Cup, CounterTop, SoapBottle, Shelf, Chair, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, DishSponge, SideTable]",
+    "output": "\nStep 1. Grasp the coffee machine\nStep 2. Move to the power outlet\nStep 3. Plug in the coffee machine\nStep 4. Press the power button to turn on the coffee machine\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan21"
+  },
+  {
+    "instruction": "Can you clean the dishes?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Toaster, Fork, Potato, Mirror, GarbageBag, AluminumFoil, Sink, Plate, Cup, CounterTop, SoapBottle, Shelf, Chair, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, DishSponge, SideTable]",
+    "output": "\nStep 1. Grasp the dish sponge\nStep 2. Move to the sink\nStep 3. Turn on the faucet\nStep 4. Wet the sponge\nStep 5. Turn off the faucet\nStep 6. Move to the dining table\nStep 7. Grasp a plate\nStep 8. Use the sponge to clean the plate\nStep 9. Place the plate on the counter\nStep 10. Repeat steps 7-9 for all the dishes\nStep 11. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan21"
+  },
+  {
+    "instruction": "Can you make me a cup of coffee?",
+    "input": "[Kettle, Bread, Stool, Egg, Drawer, Fork, Toaster, Potato, Sink, Plate, Cup, CounterTop, SoapBottle, Pan, StoveKnob, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, CreditCard, DishSponge]",
+    "output": "\nStep 1. Grasp a cup\nStep 2. Move the cup to the coffee machine\nStep 3. Grasp the coffee machine\nStep 4. Place the coffee machine on the countertop\nStep 5. Grasp the kettle\nStep 6. Fill the kettle with water from the sink\nStep 7. Place the kettle on the stove burner\nStep 8. Rotate the stove knob to turn on the stove burner\nStep 9. Grasp coffee beans\nStep 10. Grind the coffee beans and put them in the coffee machine\nStep 11. Wait for the coffee to be made\nStep 12. Move the cup of coffee to the person\nStep 13. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan22"
+  },
+  {
+    "instruction": "Can you set the table for dinner?",
+    "input": "[Kettle, Bread, Stool, Egg, Drawer, Fork, Toaster, Potato, Sink, Plate, Cup, CounterTop, SoapBottle, Pan, StoveKnob, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, CreditCard, DishSponge]",
+    "output": "\nStep 1. Grasp plates and bowls\nStep 2. Place the plates and bowls on the countertop\nStep 3. Grasp utensils\nStep 4. Place the utensils on the plates\nStep 5. Grasp glasses\nStep 6. Place the glasses on the table\nStep 7. Grasp the salt and pepper shakers\nStep 8. Place the salt and pepper shakers on the table\nStep 9. Grasp napkins\nStep 10. Place the napkins on the plates\nStep 11. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan22"
+  },
+  {
+    "instruction": "Can you help me clean the kitchen?",
+    "input": "[Kettle, Bread, Stool, Egg, Drawer, Fork, Toaster, Potato, Sink, Plate, Cup, CounterTop, SoapBottle, Pan, StoveKnob, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, CreditCard, DishSponge]",
+    "output": "\nStep 1. Grasp a dish sponge\nStep 2. Place the dish sponge in the sink\nStep 3. Turn on the faucet to wet the sponge\nStep 4. Clean the countertops, sink, and stove with the sponge\nStep 5. Grasp a pan\nStep 6. Place the pan in the sink\nStep 7. Grasp dish soap\nStep 8. Pour dish soap on the pan\nStep 9. Scrub the pan with the dish sponge\nStep 10. Rinse the pan with water from the faucet\nStep 11. Dry the pan with a dish towel\nStep 12. Repeat steps 5-11 for other dirty dishes\nStep 13. Place all the clean dishes in the dishwasher or on the drying rack\nStep 14. Grasp a broom and dustpan\nStep 15. Sweep the floor and dispose of the debris in the garbage can\nStep 16. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan22"
+  },
+  {
+    "instruction": "Can you make me breakfast?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Fork, Potato, Toaster, Sink, Plate, Cup, CounterTop, SoapBottle, Bottle, Shelf, Chair, Pan, ButterKnife, StoveKnob, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, WineBottle, Spatula, SaltShaker, Apple, DishSponge, Faucet, Pencil, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, Pen]",
+    "output": "\nStep 1. Open the fridge\nStep 2. Grasp the eggs\nStep 3. Close the fridge\nStep 4. Move to the counter\nStep 5. Grasp a pan\nStep 6. Place the pan on the stove\nStep 7. Turn on the stove\nStep 8. Grasp the butter knife\nStep 9. Use the butterknife to crack the eggs into the pan\nStep 10. Grasp a plate\nStep 11. Place the cooked eggs on the plate\nStep 12. Grasp a knife and a tomato\nStep 13. Cut the tomato into slices\nStep 14. Place the tomato slices on the plate\nStep 15. Place the plate on the dining table\nStep 16. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan23"
+  },
+  {
+    "instruction": "Can you clean the dishes for me?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Fork, Potato, Toaster, Sink, Plate, Cup, CounterTop, SoapBottle, Bottle, Shelf, Chair, Pan, ButterKnife, StoveKnob, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, WineBottle, Spatula, SaltShaker, Apple, DishSponge, Faucet, Pencil, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, Pen]",
+    "output": "\nStep 1. Grasp the dish sponge\nStep 2. Turn on the faucet\nStep 3. Wet the sponge\nStep 4. Turn off the faucet\nStep 5. Grasp a plate\nStep 6. Use the sponge to clean the plate\nStep 7. Rinse the plate with water\nStep 8. Place the plate in the dish rack\nStep 9. Repeat steps 5-8 with all dirty dishes\nStep 10. Turn on the faucet\nStep 11. Rinse the sponge\nStep 12. Turn off the faucet\nStep 13. Place the sponge in the sink\nStep 14. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan23"
+  },
+  {
+    "instruction": "Can you adjust the blinds?",
+    "input": "[Bread, DiningTable, Egg, Drawer, Fork, Potato, Toaster, Sink, Plate, Cup, CounterTop, SoapBottle, Bottle, Shelf, Chair, Pan, ButterKnife, StoveKnob, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, WineBottle, Spatula, SaltShaker, Apple, DishSponge, Faucet, Pencil, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, Blinds, Pen]",
+    "output": "\nStep 1. Grasp the blinds\nStep 2. Rotate the blinds to open or close\nStep 3. Release the blinds\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan23"
+  },
+  {
+    "instruction": "Please make me an omelette.",
+    "input": "[Bread, DiningTable, Stool, Egg, Drawer, Fork, Potato, Toaster, Tomato, Sink, Plate, Cup, CounterTop, SoapBottle, Pan, ButterKnife, StoveKnob, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, PaperTowelRoll, DishSponge]",
+    "output": "\nStep 1. Grasp a pan\nStep 2. Place the pan on a stove burner\nStep 3. Turn on the stove burner\nStep 4. Grasp a butter knife\nStep 5. Use the butterknife to crack the egg into the pan\nStep 6. Grasp a fork\nStep 7. Use the fork to beat the egg in the pan\nStep 8. Grasp a spatula\nStep 9. Use the spatula to fold the omelette\nStep 10. Turn off the stove burner\nStep 11. Use the spatula to remove the omelette from the pan\nStep 12. Place the omelette on a plate\nStep 13. Grasp a salt shaker and pepper shaker\nStep 14. Use the salt and pepper shakers to season to taste\nStep 15. Serve the omelette on the dining table\nStep 16. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan24"
+  },
+  {
+    "instruction": "Please make me a cup of coffee.",
+    "input": "[Bread, DiningTable, Stool, Egg, Drawer, Fork, Potato, Toaster, Tomato, Sink, Plate, Cup, CounterTop, SoapBottle, Pan, ButterKnife, StoveKnob, CoffeeMachine, PepperShaker, Spoon, Pot, LightSwitch, Window, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, PaperTowelRoll, DishSponge]",
+    "output": "\nStep 1. Grasp a mug\nStep 2. Place the mug under the coffee machine\nStep 3. Grasp a paper towel roll\nStep 4. Use the paper towel to clean the coffee machine\nStep 5. Grasp the coffee machine's power button\nStep 6. Press the power button to turn on the machine\nStep 7. Grasp a spoon and cup\nStep 8. Place coffee grounds in the coffee machine\nStep 9. Add water to the coffee machine\nStep 10. Place the cup under the coffee machine\nStep 11. Wait for the coffee to brew\nStep 12. Grasp a soap bottle and sponge\nStep 13. Clean up the coffee machine\nStep 14. Serve the coffee on the dining table\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan24"
+  },
+  {
+    "instruction": "Can you make me a cup of coffee?",
+    "input": "[Bread, Stool, Egg, Drawer, Fork, Potato, Toaster, Ladle, Sink, Plate, Cup, CounterTop, SoapBottle, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, DishSponge]",
+    "output": "\nStep 1. Grasp a mug\nStep 2. Place the cup under the coffee machine\nStep 3. Grasp the coffee beans\nStep 4. Open the top of the coffee machine\nStep 5. Pour the coffee beans into the coffee machine\nStep 6. Close the top of the coffee machine\nStep 7. Grasp a cup handle\nStep 8. Press the button to start the coffee machine\nStep 9. Wait for the coffee machine to finish brewing coffee\nStep 10. Grab the handle of the coffee pot\nStep 11. Pour the coffee into the mug\nStep 12. Place the coffee pot back on the coffee machine\nStep 13. Grasp a spoon\nStep 14. Move to the person and hand over it\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan25"
+  },
+  {
+    "instruction": "Can you unplug the toaster?",
+    "input": "[Bread, Stool, Egg, Drawer, Fork, Potato, Toaster, Ladle, Sink, Plate, Cup, CounterTop, SoapBottle, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, DishSponge]",
+    "output": "\nStep 1. Move closer to the toaster\nStep 2. Grasp the power plug of the toaster\nStep 3. Pull the power plug out of the socket\nStep 4. Place the power plug on the counter\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan25"
+  },
+  {
+    "instruction": "Can you wash the dishes?",
+    "input": "[Bread, Stool, Egg, Drawer, Fork, Potato, Toaster, Ladle, Sink, Plate, Cup, CounterTop, SoapBottle, StoveKnob, Pan, ButterKnife, CoffeeMachine, PepperShaker, Spoon, Pot, Window, LightSwitch, Cabinet, Spatula, SaltShaker, Apple, Faucet, StoveBurner, GarbageCan, Bowl, Lettuce, Fridge, Knife, Microwave, Mug, Tomato, DishSponge]",
+    "output": "\nStep 1. Grasp a dirty dish\nStep 2. Move towards the sink\nStep 3. Open the faucet\nStep 4. Place the dirty dish under the faucet\nStep 5. Grasp the dish sponge\nStep 6. Press the dish soap bottle to dispense dish soap\nStep 7. Rub the dish sponge on the soap bottle\nStep 8. Scrub the dish with the dish sponge\nStep 9. Rinse the dish under the faucet\nStep 10. Place the clean dish on the dish rack\nStep 11. Repeat for all remaining dirty dishes\nStep 12. Grasp the dish rack\nStep 13. Move the dish rack to a more extended position\nStep 14. Place the dish rack back on the counter\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan25"
+  },
+  {
+    "instruction": "Could you please close the curtains?",
+    "input": "[DiningTable, Pillow, HousePlant, Stool, Drawer, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, CoffeeTable, Statue, Sofa, Window, LightSwitch, Television, FloorLamp, Vase, Curtains, GarbageCan, CreditCard, Laptop, Pen, SideTable]",
+    "output": "\nStep 1. Move to the curtains\nStep 2. Grasp the curtains\nStep 3. Pull the curtains together\nStep 4. Release the curtains\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan221"
+  },
+  {
+    "instruction": "Can you turn off the lights?",
+    "input": "[DiningTable, Pillow, HousePlant, Stool, Drawer, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, CoffeeTable, Statue, Sofa, Window, LightSwitch, Television, FloorLamp, Vase, Curtains, GarbageCan, CreditCard, Laptop, Pen, SideTable]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Push the light switch down\nStep 3. Release the light switch\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan221"
+  },
+  {
+    "instruction": "I want to watch TV",
+    "input": "[DiningTable, Pillow, HousePlant, Stool, Drawer, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, CoffeeTable, Statue, Sofa, Window, LightSwitch, Television, FloorLamp, Vase, Curtains, GarbageCan, CreditCard, Laptop, Pen, SideTable]",
+    "output": "\nStep 1. Move to the TV\nStep 2. Grasp the remote control\nStep 3. Point the remote control to the TV\nStep 4. Press the power button on the remote control to turn on the TV\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan221"
+  },
+  {
+    "instruction": "Can you bring me a plate?",
+    "input": "[DiningTable, Pillow, HousePlant, Stool, Drawer, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, CoffeeTable, Statue, Sofa, Window, LightSwitch, Television, FloorLamp, Vase, Curtains, GarbageCan, CreditCard, Laptop, Pen, SideTable]",
+    "output": "\nStep 1. Move to the drawer\nStep 2. Open the drawer\nStep 3. Grasp a plate from the drawer\nStep 4. Close the drawer\nStep 5. Move to the user\nStep 6. Place the plate on the table\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan221"
+  },
+  {
+    "instruction": "Please turn on the floor lamp",
+    "input": "[DiningTable, Pillow, HousePlant, Stool, Drawer, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, CoffeeTable, Statue, Sofa, Window, LightSwitch, Television, FloorLamp, Vase, Curtains, GarbageCan, CreditCard, Laptop, Pen, SideTable]",
+    "output": "\nStep 1. Move to the floor lamp\nStep 2. Grasp the switch on the floor lamp\nStep 3. Push the switch up to turn on the lamp\nStep 4. Release the switch\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan221"
+  },
+  {
+    "instruction": "Can you please open the curtains?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, Box, RemoteControl, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Move to the curtains\nStep 2. Grasp the curtains\nStep 3. Pull the curtains open \nStep 4. Release the curtains\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan222"
+  },
+  {
+    "instruction": "Can you please turn on the floor lamp?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, Box, RemoteControl, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Move to the floor lamp\nStep 2. Grasp the light switch\nStep 3. Rotate the switch to the on position\nStep 4. Align the switch to the lamp\nStep 5. Press the switch\nStep 6. Release the switch\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan222"
+  },
+  {
+    "instruction": "Can you please hand me the TV remote?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, Box, RemoteControl, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Grasp the TV remote\nStep 2. Move near to the person and hand over the remote\nStep 3. Release the TV remote\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan222"
+  },
+  {
+    "instruction": "Can you please clean up the garbage can?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, Box, RemoteControl, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Move to the garbage can\nStep 2. Grasp the garbage bag\nStep 3. Lift the garbage bag out of the can\nStep 4. Move to a trash bin\nStep 5. Pour the garbage into the trash bin\nStep 6. Release the garbage bag into the trash bin\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan222"
+  },
+  {
+    "instruction": "Can you please move the laptop to the side table?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, Box, RemoteControl, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Grasp the laptop\nStep 2. Lift the laptop up\nStep 3. Move to the side table\nStep 4. Place the laptop on the side table\nStep 5. Release the laptop\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan222"
+  },
+  {
+    "instruction": "Please turn off the lights",
+    "input": "[DiningTable, Pillow, HousePlant, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, WateringCan, CoffeeTable, Candle, Statue, Sofa, LightSwitch, Window, Television, FloorLamp, Vase, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Align the robot with the switch\nStep 3. Grasp the light switch\nStep 4. Pull down the switch downward to turn the lights off\nStep 5. Release the switch\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan223"
+  },
+  {
+    "instruction": "Can you water the plants?",
+    "input": "[DiningTable, Pillow, HousePlant, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, WateringCan, CoffeeTable, Candle, Statue, Sofa, LightSwitch, Window, Television, FloorLamp, Vase, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Grasp the watering can\nStep 2. Move towards the houseplant\nStep 3. Pour water on the houseplant\nStep 4. Place the watering can away\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan223"
+  },
+  {
+    "instruction": "Can you bring me the TV remote control?",
+    "input": "[DiningTable, Pillow, HousePlant, ArmChair, KeyChain, Painting, Plate, Box, RemoteControl, Chair, WateringCan, CoffeeTable, Candle, Statue, Sofa, LightSwitch, Window, Television, FloorLamp, Vase, GarbageCan, TVStand, CreditCard, Laptop, SideTable]",
+    "output": "\nStep 1. Grasp the remote control\nStep 2. Move to the person and hand over the remote control\nStep 3. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan223"
+  },
+  {
+    "instruction": "Can you turn off the light?",
+    "input": "[HousePlant, Pillow, Stool, Drawer, ArmChair, KeyChain, Painting, CellPhone, Box, RemoteControl, Chair, WateringCan, Statue, Sofa, Dresser, DogBed, LightSwitch, Window, Television, Cabinet, FloorLamp, Book, Newspaper, Vase, GarbageCan, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Locate the light switch\nStep 2. Move closer to the light switch\nStep 3. Align the hand with the light switch\nStep 4. Press the light switch button to turn off\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan224"
+  },
+  {
+    "instruction": "Can you get me a book from the bookshelf?",
+    "input": "[HousePlant, Pillow, Stool, Drawer, ArmChair, KeyChain, Painting, CellPhone, Box, RemoteControl, Chair, WateringCan, Statue, Sofa, Dresser, DogBed, LightSwitch, Window, Television, Cabinet, FloorLamp, Book, Newspaper, Vase, GarbageCan, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Locate the bookshelf\nStep 2. Move closer to the bookshelf\nStep 3. Search for the book\nStep 4. Grasp the book\nStep 5. Move towards the person\nStep 6. Hand over the book to the person\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan224"
+  },
+  {
+    "instruction": "Can you water the plant in the corner?",
+    "input": "[HousePlant, Pillow, Stool, Drawer, ArmChair, KeyChain, Painting, CellPhone, Box, RemoteControl, Chair, WateringCan, Statue, Sofa, Dresser, DogBed, LightSwitch, Window, Television, Cabinet, FloorLamp, Book, Newspaper, Vase, GarbageCan, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Locate the plant\nStep 2. Locate the watering can\nStep 3. Grasp the watering can\nStep 4. Move closer to the plant\nStep 5. Pour water into the pot with the watering can\nStep 6. Place the watering can back to its original position\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan224"
+  },
+  {
+    "instruction": "Can you turn off the lights?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, TissueBox, Box, RemoteControl, Shelf, Chair, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Vase, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Grasp the light switch\nStep 3. Push the switch down\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan225"
+  },
+  {
+    "instruction": "Can you bring me the newspaper?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, TissueBox, Box, RemoteControl, Shelf, Chair, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Vase, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Grasp the newspaper\nStep 2. Move to the person and hand over it\nStep 3. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan225"
+  },
+  {
+    "instruction": "Can you turn on the floor lamp?",
+    "input": "[HousePlant, Pillow, Drawer, ArmChair, KeyChain, Painting, TissueBox, Box, RemoteControl, Shelf, Chair, CoffeeTable, Statue, Sofa, LightSwitch, Window, Television, Watch, FloorLamp, Vase, Newspaper, Curtains, GarbageCan, TVStand, CreditCard, Laptop, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the floor lamp\nStep 2. Grasp the switch\nStep 3. Push the switch up\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan225"
+  },
+  {
+    "instruction": "Can you please close the blinds?",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Painting, CellPhone, TissueBox, Chair, CD, Bed, AlarmClock, Window, LightSwitch, Blinds, Book, Desk, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the window\nStep 2. Grasp the blinds\nStep 3. Pull down the blinds\nStep 4. Release the blinds\nStep 5. Move away from the window\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan321"
+  },
+  {
+    "instruction": "Can you please turn off the desk lamp?",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Painting, CellPhone, TissueBox, Chair, CD, Bed, AlarmClock, Window, LightSwitch, Blinds, Book, Desk, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the desk\nStep 2. Locate the desk lamp\nStep 3. Grasp the base of the desk lamp\nStep 4. Rotate the lamp to the left or right to turn off the light\nStep 5. Release the base of the desk lamp\nStep 6. Move away from the desk\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan321"
+  },
+  {
+    "instruction": "Can you please hand me the pencil on the desk?",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Painting, CellPhone, TissueBox, Chair, CD, Bed, AlarmClock, Window, LightSwitch, Blinds, Book, Desk, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the desk\nStep 2. Locate the pencil\nStep 3. Grasp the pencil tightly\nStep 4. Move to the person and hand over the pencil\nStep 5. Release the pencil\nStep 6. Move away from the person\nStep 7. Move away from the desk\nStep 8. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan321"
+  },
+  {
+    "instruction": "Please open the curtains",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Cloth, Painting, CellPhone, BaseballBat, Shelf, CD, Bed, Dresser, LightSwitch, AlarmClock, Window, Cabinet, Book, Curtains, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the curtains\nStep 2. Grasp the curtains\nStep 3. Pull the curtains to the side\nStep 4. Release the curtains\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan322"
+  },
+  {
+    "instruction": "Can you turn off the bedside lamp?",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Cloth, Painting, CellPhone, BaseballBat, Shelf, CD, Bed, Dresser, LightSwitch, AlarmClock, Window, Cabinet, Book, Curtains, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the bedside lamp\nStep 2. Rotate towards the lamp\nStep 3. Press the switch to turn off the light\nStep 4. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan322"
+  },
+  {
+    "instruction": "Can you get me the book on the shelf?",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Cloth, Painting, CellPhone, BaseballBat, Shelf, CD, Bed, Dresser, LightSwitch, AlarmClock, Window, Cabinet, Book, Curtains, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move to the shelf\nStep 2. Grasp the book\nStep 3. Move to the person\nStep 4. Release the book to the person\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan322"
+  },
+  {
+    "instruction": "Pour me a cup of coffee",
+    "input": "[Pillow, Drawer, ArmChair, KeyChain, Mirror, Cloth, Painting, CellPhone, BaseballBat, Shelf, CD, Bed, Dresser, LightSwitch, AlarmClock, Window, Cabinet, Book, Curtains, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Grasp the coffee mug\nStep 2. Move to the coffee machine\nStep 3. Place the cup under the coffee spout\nStep 4. Press the button to pour coffee into the cup\nStep 5. Grasp the coffee mug\nStep 6. Move to the person and hand over the coffee\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan322"
+  },
+  {
+    "instruction": "Can you turn on the lamp?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, CellPhone, Chair, CD, Safe, Bed, Sofa, Dresser, LightSwitch, AlarmClock, Window, Blinds, Book, Desk, TeddyBear, Pencil, GarbageCan, Bowl, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Grasp the keys\nStep 2. Move towards the light switch\nStep 3. Align the key with the keyhole\nStep 4. Insert the key into the keyhole and turn it on\nStep 5. Move towards the lamp\nStep 6. Press the power switch to turn on\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan323"
+  },
+  {
+    "instruction": "Can you pass me the remote control, please?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, CellPhone, Chair, CD, Safe, Bed, Sofa, Dresser, LightSwitch, AlarmClock, Window, Blinds, Book, Desk, TeddyBear, Pencil, GarbageCan, Bowl, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Grasp the remote control\nStep 2. Move towards the person and hand over the remote control\nStep 3. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan323"
+  },
+  {
+    "instruction": "Can you close the blinds?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, CellPhone, Chair, CD, Safe, Bed, Sofa, Dresser, LightSwitch, AlarmClock, Window, Blinds, Book, Desk, TeddyBear, Pencil, GarbageCan, Bowl, Mug, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move towards the blinds\nStep 2. Grasp the cord\nStep 3. Pull the cord to close the blinds\nStep 4. Done.",
+    "json_id": [],
+    "scene_name": "FloorPlan323"
+  },
+  {
+    "instruction": "Can you clean the room please?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, Painting, TennisRacket, CellPhone, BaseballBat, VacuumCleaner, Shelf, CD, Bed, ShelvingUnit, Dresser, AlarmClock, LightSwitch, Window, Blinds, Book, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, DeskLamp]",
+    "output": "\nStep 1. Grasp the Vacuum Cleaner\nStep 2. Move to the garbage can\nStep 3. Align the Vacuum Cleaner with the garbage can\nStep 4. Lift the Vacuum Cleaner\nStep 5. Move to the floor and release the garbage into the garbage can\nStep 6. Grasp the Pillow\nStep 7. Align with the bed\nStep 8. Place the Pillow onto the bed\nStep 9. Grasp the Mug\nStep 10. Align with the Dresser\nStep 11. Place the Mug onto the Dresser\nStep 12. Grasp the CD\nStep 13. Pull out the drawer\nStep 14. Place the CD inside the drawer\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan324"
+  },
+  {
+    "instruction": "Can you adjust the temperature, please?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, Painting, TennisRacket, CellPhone, BaseballBat, VacuumCleaner, Shelf, CD, Bed, ShelvingUnit, Dresser, AlarmClock, LightSwitch, Window, Blinds, Book, Pencil, GarbageCan, Mug, CreditCard, Laptop, Pen, DeskLamp]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Rotate the LightSwitch downwards to turn off the lights\nStep 3. Move to the AC or heater\nStep 4. Rotate the knob to decrease or increase the temperature\nStep 5. Rotate the LightSwitch upward to turn on the lights back on\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan324"
+  },
+  {
+    "instruction": "Can you adjust the blinds to let some light in?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, Painting, CellPhone, Shelf, CD, Bed, ShelvingUnit, Dresser, AlarmClock, LightSwitch, Window, Blinds, Cabinet, Book, Vase, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move closer to the window\nStep 2. Grasp the blinds\nStep 3. Align the blinds  to let light in\nStep 4. Release the blinds\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan325"
+  },
+  {
+    "instruction": "Can you turn on the desk lamp?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, Painting, CellPhone, Shelf, CD, Bed, ShelvingUnit, Dresser, AlarmClock, LightSwitch, Window, Blinds, Cabinet, Book, Vase, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Move closer to the desk\nStep 2. Grasp the desk lamp\nStep 3. Press the power button to turn on the desk lamp\nStep 4. Release the desk lamp\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan325"
+  },
+  {
+    "instruction": "Can you bring me a book and a pen?",
+    "input": "[Pillow, Drawer, KeyChain, Mirror, Painting, CellPhone, Shelf, CD, Bed, ShelvingUnit, Dresser, AlarmClock, LightSwitch, Window, Blinds, Cabinet, Book, Vase, Pencil, GarbageCan, CreditCard, Laptop, Pen, SideTable, DeskLamp]",
+    "output": "\nStep 1. Grasp a book\nStep 2. Grasp a pen\nStep 3. Move to the person\nStep 4. Place a book and pen on the table or hand them over to the person.\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan325"
+  },
+  {
+    "instruction": "Can you clean the sink?",
+    "input": "[Drawer, Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, HandTowelHolder, ShowerHead, Faucet, DishSponge, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Grasp a scrub brush\nStep 2. Move to the sink\nStep 3. Wet the scrub brush under the faucet\nStep 4. Scrub the sink with the brush\nStep 5. Release the scrub brush\nStep 6. Grasp a cloth\nStep 7. Wet the cloth under the faucet\nStep 8. Wipe the sink with the cloth\nStep 9. Release the cloth\nStep 10. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan421"
+  },
+  {
+    "instruction": "Can you turn off the lights?",
+    "input": "[Drawer, Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, HandTowelHolder, ShowerHead, Faucet, DishSponge, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Push the switch down to turn off the lights\nStep 3. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan421"
+  },
+  {
+    "instruction": "I want to take a shower",
+    "input": "[Drawer, Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, HandTowelHolder, ShowerHead, Faucet, DishSponge, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Move to the shower\nStep 2. Rotate the shower handle to turn on the water\nStep 3. Check the water temperature and adjust it if necessary\nStep 4. Grasp a towel\nStep 5. Grasp a bar of soap\nStep 6. Enter the shower\nStep 7. Wet the body with water\nStep 8. Soap the body with the soap\nStep 9. Rinse the body with water\nStep 10. Turn off the shower by turning the shower handle\nStep 11. Grasp another towel\nStep 12. Dry the body with the towel\nStep 13. Leave the shower\nStep 14. Place the towels in the towel holder\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan421"
+  },
+  {
+    "instruction": "Can you help me clean the bathroom?",
+    "input": "[Drawer, Mirror, Cloth, Sink, TissueBox, ShowerCurtain, Plunger, Bathtub, CounterTop, SoapBottle, Shelf, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Window, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle]",
+    "output": "\nStep 1. Grasp a cloth\nStep 2. Move to the sink and wet the cloth with water\nStep 3. Move to the mirror\nStep 4. Align the cloth with the mirror's surface\nStep 5. Wipe the mirror with the cloth\nStep 6. Grasp the spray bottle\nStep 7. Spray the cleaning solution on the sink\nStep 8. Scrub the sink with the scrub brush\nStep 9. Grasp the plunger\nStep 10. Move to the toilet\nStep 11. Use the plunger to unclog the toilet if necessary\nStep 12. Grasp a new cloth\nStep 13. Use the new cloth to clean the counter and shelf surfaces\nStep 14. Grasp a towel\nStep 15. Place the freshly cleaned towel on the towel holder\nStep 16. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan422"
+  },
+  {
+    "instruction": "Open the Cabinet and give me the Soap Bottle",
+    "input": "[Drawer, Mirror, Cloth, Sink, TissueBox, ShowerCurtain, Plunger, Bathtub, CounterTop, SoapBottle, Shelf, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Window, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle]",
+    "output": "\nStep 1. Grasp the Cabinet door handle\nStep 2. Pull the Cabinet door open\nStep 3. Locate the Soap Bottle and grasp it\nStep 4. Close the Cabinet door\nStep 5. Move to the person and hand over the soap bottle\nStep 6. Done.",
+    "json_id": [],
+    "scene_name": "FloorPlan422"
+  },
+  {
+    "instruction": "Turn off the lights",
+    "input": "[Drawer, Mirror, Cloth, Sink, TissueBox, ShowerCurtain, Plunger, Bathtub, CounterTop, SoapBottle, Shelf, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Window, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle]",
+    "output": "\nStep 1. Move to the light switch\nStep 2. Press the light switch to turn off the lights\nStep 3. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan422"
+  },
+  {
+    "instruction": "Can you clean the bathroom?",
+    "input": "[Drawer, Mirror, Cloth, Sink, ShowerCurtain, Plunger, Bathtub, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Window, Toilet, HandTowelHolder, ShowerHead, Faucet, SprayBottle, GarbageCan, ToiletPaperHanger, TowelHolder, SoapBar, Towel, ShowerDoor]",
+    "output": "\nStep 1. Grasp the plunger\nStep 2. Move to the toilet\nStep 3. Align the plunger with the toilet bowl\nStep 4. Plunge the toilet\nStep 5. Release the plunger\nStep 6. Grasp the scrub brush\nStep 7. Pour cleaning solution in the spray bottle\nStep 8. Grasp the spray bottle\nStep 9. Spray cleaning solution on the sink, countertop, and bathtub\nStep 10. Scrub the sink, countertop, and bathtub with the scrub brush\nStep 11. Grasp the cloth\nStep 12. Wet the cloth in the sink\nStep 13. Wipe the mirror\nStep 14. Wipe the shower glass and shower door\nStep 15. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan423"
+  },
+  {
+    "instruction": "Please clean the sink",
+    "input": "[Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Grasp the cloth\nStep 2. Move to the sink\nStep 3. Wet the cloth with water from the faucet\nStep 4. Scrub the sink with the wet cloth\nStep 5. Grasp the plunger\nStep 6. Move the plunger to the side of the sink\nStep 7. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan424"
+  },
+  {
+    "instruction": "Turn on the shower",
+    "input": "[Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Move to the shower\nStep 2. Grasp the shower faucet\nStep 3. Turn the shower faucet to the left to turn on the shower\nStep 4. Move away from the shower\nStep 5. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan424"
+  },
+  {
+    "instruction": "Please take out the trash",
+    "input": "[Mirror, Cloth, Sink, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, LightSwitch, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Move to the garbage can\nStep 2. Grasp the garbage bag\nStep 3. Pull the garbage bag out of the garbage can\nStep 4. Move to the outside bin\nStep 5. Release the garbage bag in the outside bin\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan424"
+  },
+  {
+    "instruction": "Can you clean the bathroom?",
+    "input": "[Mirror, Cloth, Sink, TissueBox, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, Window, LightSwitch, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Move all loose objects to the safe location\nStep 2. Place the garbage can close to the door\nStep 3. Grasp the plunger and clean the inside of the toilet\nStep 4. Grasp the scrub brush and clean the sink and faucet\nStep 5. Grasp the soap bottle and Pour some liquid soap on the cloth\nStep 6. Clean around the sink\nStep 7. Clean the mirror using the sprayed mist on the cloth\nStep 8. Clean the shower door and glass\nStep 9. Clean around the shower head\nStep 10. Grasp the towel and wipe down any remaining wet spots on the ground\nStep 11. Put all the objects back where they belong\nStep 12. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan425"
+  },
+  {
+    "instruction": "Can you turn off the lights?",
+    "input": "[Mirror, Cloth, Sink, TissueBox, Plunger, CounterTop, SoapBottle, ShowerGlass, HandTowel, Candle, ScrubBrush, ToiletPaper, Window, LightSwitch, Toilet, Cabinet, HandTowelHolder, ShowerHead, Faucet, GarbageCan, ToiletPaperHanger, TowelHolder, Towel, SoapBar, SprayBottle, ShowerDoor]",
+    "output": "\nStep 1. Grasp the step stool\nStep 2. Move the step stool to the light switch\nStep 3. Climb on the step stool to reach the light switch safely\nStep 4. Grasp the light switch and turn off the lights\nStep 5. Climb down the stepstool\nStep 6. Done",
+    "json_id": [],
+    "scene_name": "FloorPlan425"
+  }
+]
