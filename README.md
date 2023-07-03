@@ -5,8 +5,10 @@
 </div>
 
 # TaPA
-Official implementation of **Embodied Task Planning with Large Language Models**. 
+Official implementation of **Embodied Task Planning with Large Language Models**.
+
 Try out the web demo 🤗 of TaPA: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/xuxw98/TAPA)
+
 The repository contains:
 - The [15K data](#Data Release) used for fine-tuning the model.
 - The code for [generating the data](#data-generation-process).
