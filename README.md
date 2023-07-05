@@ -12,8 +12,8 @@ Try out the web demo 🤗 of TaPA: [![Hugging Face Spaces](https://img.shields.i
 The repository contains:
 - The [15K data](#data-release) used for fine-tuning the model.
 - The code for [generating the data](#data-generation-process).
-- The code for [fine-tuning the model](#fine-tuning) by using [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama).
-- The code for [inference](#Running-the-inference) by using [Detic](https://github.com/facebookresearch/Detic).
+- The code for [fine-tuning the model](#fine-tuning) on RTX 3090 GPUs with [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama).
+- The code for [inference](#Running-the-inference) during navigation.
 
 ## News
 - **[2023.07.04]**  The **training code** for **TaPA** are released. 📌
