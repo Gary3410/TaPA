@@ -5,7 +5,7 @@
 </div>
 
 # TaPA
-Official implementation of [Embodied Task Planning with Large Language Models](https://arxiv.org/abs/2307.01848).
+Official implementation of **Embodied Task Planning with Large Language Models**.
 
 Try out the web demo 🤗 of **TaPA**: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/xuxw98/TAPA)
 
