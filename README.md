@@ -270,7 +270,7 @@ python generate/adapter_detic_robot_eval_traversal.py --navigation_strategy Sele
 ## Contributors
 All grad students below contributed equally and the order is determined by random draw.
 - [Ziwei Wang](https://ziweiwangthu.github.io/)
-- [Xiuwei Xv](https://xuxw98.github.io/)
+- [Xiuwei Xu](https://xuxw98.github.io/)
 - [Zhenyu Wu](https://gary3410.github.io/)
  
 All advised by [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/). Zhenyu Wu is also advised by [Haibin Yan](https://scholar.google.com/citations?user=-AQLKlsAAAAJ).
