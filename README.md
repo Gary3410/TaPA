@@ -35,7 +35,7 @@ Here is a from-scratch script for **TaPA**.
 # Install Lit-LLaMA
 conda create -n tapa python=3.10
 conda activate tapa
-git clone https://github.com/Gary3410/tapa
+git clone https://github.com/Gary3410/TaPA.git
 cd TaPA
 pip install -r requirements.txt
 # If you want to utilize more than one GPU
