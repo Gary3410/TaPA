@@ -33,6 +33,11 @@ for input_one in tqdm(input_list[1:]):
         input_context = "List of objects: " + input_context
 
     messages = get_prompt()
+    # Add fewshot_samples
+    samples = get_fewshot_sample()
+    for sample_one in samples:
+        messages.append({"role": "user", "content": sample_one["context"]})
+        messages.append({"role": "assistant", "content": sample_one["response"]})
     messages.append({"role": "user", "content": input_context})
     time.sleep(6)
     while True:
