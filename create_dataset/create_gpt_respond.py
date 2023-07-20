@@ -22,15 +22,15 @@ content = f.read()
 input_list = json.loads(content)
 f.close()
 
-for input_one in tqdm(input_list[1:]):
+for input_one in tqdm(input_list):
     index = input_list.index(input_one)
     save_path = os.path.join(os.getcwd(), "respond", str(index) + ".json")
     instruction = input_one["instruction"]
     input_context = input_one["input"]
     if not instruction:
-        input_context = "List of objects: " + input_context + "\n" + "Instruction: " + instruction
-    else:
         input_context = "List of objects: " + input_context
+    else:
+        input_context = "List of objects: " + input_context + "\n" + "Instruction: " + instruction
 
     messages = get_prompt()
     # Add fewshot_samples
