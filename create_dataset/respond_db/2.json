@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7edtZdDNv0YhlywWs4IDRcHbDpjLL",
+  "object": "chat.completion",
+  "created": 1689920833,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Open the blinds and clean the window with a spray bottle and a paper towel. \n    ---\n    Necessary actions:\n    OpenObject(blinds), GotoLocation(window), GotoLocation(spray bottle), PickupObject(spray bottle), GotoLocation(paper towel), PickupObject(paper towel), CleanObject(window)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 858,
+    "completion_tokens": 70,
+    "total_tokens": 928
+  }
+}

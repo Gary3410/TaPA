@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7eduFn3D2712d5cETLCHoIO43BWnY",
+  "object": "chat.completion",
+  "created": 1689920875,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Slice the tomato and put it on the countertop.\n    ---\n    Necessary actions:\n    GotoLocation(drawer), OpenObject(drawer), PickupObject(knife), CloseObject(drawer), GotoLocation(tomato), SliceObject(tomato), GotoLocation(countertop), PutObject(tomato)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 843,
+    "completion_tokens": 72,
+    "total_tokens": 915
+  }
+}

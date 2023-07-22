@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7edtzi44G8WUPx2VAPST6CHIjweXG",
+  "object": "chat.completion",
+  "created": 1689920859,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Open the fridge, take an apple, and put it on the dining table.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), GotoLocation(apple), PickupObject(apple), GotoLocation(dining table), PutObject(apple)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 847,
+    "completion_tokens": 63,
+    "total_tokens": 910
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7edtjDqu0nGc8HXcFVYp3rsY96huv",
+  "object": "chat.completion",
+  "created": 1689920843,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Open the fridge and pick up an apple.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), PickupObject(apple)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 840,
+    "completion_tokens": 38,
+    "total_tokens": 878
+  }
+}

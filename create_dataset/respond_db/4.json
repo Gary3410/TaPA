@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7edtraFQwsQ7lbnlTkETxBRAcdREA",
+  "object": "chat.completion",
+  "created": 1689920851,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Open the blinds and close the curtains.\n    ---\n    Necessary actions:\n    OpenObject(blinds), CloseObject(curtains)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 916,
+    "completion_tokens": 32,
+    "total_tokens": 948
+  }
+}

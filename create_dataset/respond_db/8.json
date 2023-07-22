@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7eduPXGSVtmVS3ZPykHBZMo7s168T",
+  "object": "chat.completion",
+  "created": 1689920885,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Generate the instruction: Open the fridge, take out the egg, and place it on the dining table.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), GotoLocation(egg), PickupObject(egg), GotoLocation(diningtable), PutObject(egg)\n    ==="
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 899,
+    "completion_tokens": 64,
+    "total_tokens": 963
+  }
+}
