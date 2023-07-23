@@ -248,6 +248,13 @@ python generate/adapter_robot.py \
     --max_new_tokens 512 \
     --input "[Cabinet, PaperTowelRoll, Cup, ButterKnife, Shelf, Bowl, Fridge, CounterTop, Drawer, Potato, DishSponge, Bread, Statue, Spoon, SoapBottle, ShelvingUnit, HousePlant, Sink, Fork, Spatula, GarbageCan, Plate, Pot, Blinds, Kettle, Lettuce,Stool, Vase, Tomato, Mug, StoveBurner, StoveKnob, CoffeeMachine, LightSwitch, Toaster, Microwave, Ladle, SaltShaker, Apple, PepperShaker]"
 ```
+You can also take several scene images and save them to  `./input/rgb_img` directory and use Detic to generate a list of scene objects.
+```bash
+python generate/adapter_with_detic.py \
+    --prompt "Can you open the computer?" \
+    --max_new_tokens 512 \
+    --img_path input/rgb_img
+```
 
 ### Running the validation
 If you want to try to get results on the validation set, need to prepare the validation set first.
