@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7gUvqdGSJeyMFseqvOoEHPlfrfvlf",
+  "object": "chat.completion",
+  "created": 1690363034,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "To complete the task of unpacking the suitcase, you need to follow these steps:\n\n1. GotoLocation(sofa.n.01_1) - Go to the sofa where the objects should be placed.\n2. PickupObject(sock.n.01_1) - Pick up the first sock from the carton.\n3. PutObject(sock.n.01_1) - Put the first sock on the sofa.\n4. PickupObject(sock.n.01_2) - Pick up the second sock from the carton.\n5. PutObject(sock.n.01_2) - Put the second sock on the sofa.\n6. PickupObject(bottle__of__perfume.n.01_1) - Pick up the bottle of perfume from the carton.\n7. PutObject(bottle__of__perfume.n.01_1) - Put the bottle of perfume on the sofa.\n8. PickupObject(toothbrush.n.01_1) - Pick up the toothbrush from the carton.\n9. PutObject(toothbrush.n.01_1) - Put the toothbrush on the sofa.\n10. PickupObject(notebook.n.01_1) - Pick up the notebook from the carton.\n11. PutObject(notebook.n.01_1) - Put the notebook on the sofa.\n\nOnce you have completed all these steps, the suitcase will be unpacked and the objects will be placed on the sofa."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 858,
+    "completion_tokens": 294,
+    "total_tokens": 1152
+  }
+}

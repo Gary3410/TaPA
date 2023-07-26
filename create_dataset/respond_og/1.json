@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7gUva0POL4hhvIolGOuRei188UvWZ",
+  "object": "chat.completion",
+  "created": 1690363018,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Based on the provided bddl and task, here are the low-level action list to complete the cleaning_oven task:\n\n1. GotoLocation(agent)\n2. GotoLocation(sink.n.01_1)\n3. PickupObject(rag.n.01_1)\n4. GotoLocation(oven.n.01_1)\n5. SliceObject(bar_soap.n.01_1)\n6. GotoLocation(sink.n.01_1)\n7. CleanObject(oven.n.01_1)\n8. GotoLocation(oven.n.01_1)\n9. SliceObject(rag.n.01_1)\n10. PickupObject(rag.n.01_1)\n11. PutObject(rag.n.01_1)\n12. GotoLocation(cabinet.n.01_1)\n13. OpenObject(cabinet.n.01_1)\n14. GotoLocation(rag.n.01_2)\n15. PickupObject(rag.n.01_2)\n16. GotoLocation(oven.n.01_1)\n17. PutObject(rag.n.01_2)\n18. CloseObject(cabinet.n.01_1)\n\nNote: The above actions assume that all objects and receptacles are visible and reachable by the robot."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 263,
+    "total_tokens": 1091
+  }
+}
