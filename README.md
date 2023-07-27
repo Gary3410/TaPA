@@ -274,11 +274,18 @@ python generate/adapter_detic_robot_eval_random.py --navigation_strategy Select 
 python generate/adapter_detic_robot_eval_traversal.py --navigation_strategy Select one of the traversal strategies
 ```
 
+### Omnigibson preparation
+```bash
+python docker_build.py
+./run_docker.sh -h <ABS_DATA_PATH>
+```
+
 ## Contributors
 All grad students below contributed equally and the order is determined by random draw.
 - [Ziwei Wang](https://ziweiwangthu.github.io/)
 - [Xiuwei Xu](https://xuxw98.github.io/)
 - [Zhenyu Wu](https://gary3410.github.io/)
+- [Guanxing Lu](https://guanxinglu.github.io/)
  
 All advised by [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/). Zhenyu Wu is also advised by [Haibin Yan](https://scholar.google.com/citations?user=-AQLKlsAAAAJ).
 ## Acknowledgement
