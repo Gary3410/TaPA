@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edtraFQwsQ7lbnlTkETxBRAcdREA",
+  "id": "chatcmpl-7gpDZG08b5r1g6L5uv2QeeEoGDIdO",
   "object": "chat.completion",
-  "created": 1689920851,
+  "created": 1690441013,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the blinds and close the curtains.\n    ---\n    Necessary actions:\n    OpenObject(blinds), CloseObject(curtains)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Prepare breakfast.\",\n    \"thought\": \"The instruction is to prepare breakfast. We have a Toaster, Egg, Plate, Mug, and Fridge available in the room. I'll pick up the Plate, go to the Fridge, pick up an Egg, go to the Toaster, put down the Plate, put the Egg in the Toaster, toast it, pick it up, then put it on the Plate. Finally, I'll find the Mug and put it on the Plate for you.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Plate\", \"expectation\": \"I face the plate, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Plate\", \"expectation\": \"I pick up a plate, holding a plate.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Fridge\", \"expectation\": \"I face the fridge, holding a plate.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Egg\", \"expectation\": \"I pick up an egg from the fridge, holding an egg and a plate.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Toaster\", \"expectation\": \"I face the toaster, holding an egg and a plate.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Plate\", \"expectation\": \"I put down the plate on the toaster, holding an egg.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Egg\", \"expectation\": \"I put the egg in the toaster, holding nothing.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 916,
-    "completion_tokens": 32,
-    "total_tokens": 948
+    "prompt_tokens": 1940,
+    "completion_tokens": 367,
+    "total_tokens": 2307
   }
 }

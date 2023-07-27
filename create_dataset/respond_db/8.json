@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7eduPXGSVtmVS3ZPykHBZMo7s168T",
+  "id": "chatcmpl-7gpFBezK3vIiXtARgUM0ZZtnNzByF",
   "object": "chat.completion",
-  "created": 1689920885,
+  "created": 1690441113,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the fridge, take out the egg, and place it on the dining table.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), GotoLocation(egg), PickupObject(egg), GotoLocation(diningtable), PutObject(egg)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Boil some water in the kettle.\",\n    \"thought\": \"The instruction is to boil water in the kettle. We have a Kettle and CounterTop available in the room. I'll go to the Kettle, fill it with water from the Faucet, then place it on the CounterTop for you.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Kettle\", \"expectation\": \"I face the kettle, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Faucet\", \"expectation\": \"I face the faucet, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Kettle\", \"expectation\": \"I face the kettle, holding nothing.\"),\n    dict(\"name\": \"ToggleObject\", \"arg\": \"Faucet\", \"expectation\": \"I toggle on the faucet to fill the kettle with water, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"CounterTop\", \"expectation\": \"I face the countertop, holding a filled kettle.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"CounterTop\", \"expectation\": \"I put down the filled kettle on the countertop for you, holding nothing.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 899,
-    "completion_tokens": 64,
-    "total_tokens": 963
+    "prompt_tokens": 1913,
+    "completion_tokens": 298,
+    "total_tokens": 2211
   }
 }

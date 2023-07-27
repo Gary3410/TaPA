@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edtRtnifNVDqLNHltNPB6LUKoW8O",
+  "id": "chatcmpl-7gpChEzmdF78Kk5qms1qNvhUuIuPR",
   "object": "chat.completion",
-  "created": 1689920825,
+  "created": 1690440959,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the drawer and take out a pencil. \n    ---\n    Necessary actions:\n    GotoLocation(drawer), OpenObject(drawer), PickupObject(pencil)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Clean the dining table.\",\n    \"thought\": \"The instruction is to clean the dining table. We have a DiningTable, SprayBottle, and PaperTowelRoll available in the room. I'll pick up the SprayBottle, go to the DiningTable, spray it with the SprayBottle, then find a PaperTowelRoll and clean the table.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"SprayBottle\", \"expectation\": \"I face the spray bottle, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"SprayBottle\", \"expectation\": \"I pick up a spray bottle, holding a spray bottle.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"DiningTable\", \"expectation\": \"I face the dining table, holding a spray bottle.\"),\n    dict(\"name\": \"ToggleObject\", \"arg\": \"SprayBottle\", \"expectation\": \"I toggle the spray bottle to spray on the dining table, holding a spray bottle.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"PaperTowelRoll\", \"expectation\": \"I face the paper towel roll, holding a spray bottle.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"PaperTowelRoll\", \"expectation\": \"I pick up a paper towel roll, holding a spray bottle and a paper towel roll.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"DiningTable\", \"expectation\": \"I face the dining table, holding a spray bottle and a paper towel roll.\"),\n    dict(\"name\": \"CleanObject\", \"arg\": \"DiningTable\", \"expectation\": \"I clean the dining table with the spray bottle and the paper towel roll, holding a spray bottle and a used paper towel roll.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 858,
-    "completion_tokens": 39,
-    "total_tokens": 897
+    "prompt_tokens": 1933,
+    "completion_tokens": 419,
+    "total_tokens": 2352
   }
 }

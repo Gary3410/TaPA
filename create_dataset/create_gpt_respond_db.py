@@ -1,11 +1,12 @@
 '''
 This file is use to generate alpaca dataset with gpt-3.5-turbo-0613 using (alfred) database.
+Usage: python create_gpt_respond_db.py
 '''
 import os
 import numpy as np
 import json
 # from prompt.prompt_utils import *
-from create_dataset.prompt.prompt_utils_v4_db import PromptManager
+from prompt.prompt_utils_v4_db import PromptManager
 import openai
 import time
 from tqdm import tqdm
@@ -26,7 +27,7 @@ content = f.read()
 input_list = json.loads(content)
 f.close()
 
-# input_list = input_list[:10]    # for scene test
+input_list = input_list[:10]    # for scene test
 
 # alfred_db_path = "prompt/alfred_trainset_database_6574.txt"   # full database
 alfred_db_path = "prompt/alfred_trainset_database_100.txt"  # for database test
@@ -47,7 +48,8 @@ for input_one in tqdm(input_list):
 
     # Add fewshot_samples
     # print(f"input_context: {input_context}")
-    samples = prompt_manager.get_fewshot_sample_db(input_context, k=1)
+    # samples = prompt_manager.get_fewshot_sample_db(input_context, k=1)
+    samples = prompt_manager.get_fewshot_sample()
     for sample_one in samples:
         messages.append({"role": "user", "content": sample_one["context"]})
         messages.append({"role": "assistant", "content": sample_one["response"]})
@@ -58,7 +60,9 @@ for input_one in tqdm(input_list):
             print(f"messages: {messages}")
             response = openai.ChatCompletion.create(
                 # model="gpt-3.5-turbo-0301",
-                model="gpt-3.5-turbo-0613",
+                # model="gpt-3.5-turbo-0613",
+                # model="gpt-4-8k",
+                model="gpt-3.5-turbo",
                 messages=messages,
                 temperature=0.8,  # 0.0 - 2.0
                 max_tokens=2048,

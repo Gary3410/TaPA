@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7eduFn3D2712d5cETLCHoIO43BWnY",
+  "id": "chatcmpl-7gpEeISaoRqevnqPTwL38kQzaHTGJ",
   "object": "chat.completion",
-  "created": 1689920875,
+  "created": 1690441080,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Slice the tomato and put it on the countertop.\n    ---\n    Necessary actions:\n    GotoLocation(drawer), OpenObject(drawer), PickupObject(knife), CloseObject(drawer), GotoLocation(tomato), SliceObject(tomato), GotoLocation(countertop), PutObject(tomato)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Prepare breakfast with an egg, tomato, and toast.\",\n    \"thought\": \"The instruction is to prepare breakfast with an egg, tomato, and toast. We have a Egg, Tomato, Pan, StoveBurner, Toaster, Plate, and CounterTop in the room. I'll pick up the Egg, go to the StoveBurner, heat the Pan, put the Egg in the Pan to cook, pick up the Tomato, go to the CounterTop, slice the Tomato, pick up the Toaster, go to the CounterTop, put the bread in the Toaster, toast it, pick up the Plate, go to the CounterTop, put the cooked Egg and sliced Tomato on the Plate, and put the toasted bread on the Plate as well.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Egg\", \"expectation\": \"I face the egg, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Egg\", \"expectation\": \"I pick up an egg, holding an egg.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"StoveBurner\", \"expectation\": \"I face the stove burner, holding an egg.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Pan\", \"expectation\": \"I face the pan, holding an egg.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Pan\", \"expectation\": \"I put the egg in the pan to cook, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Tomato\", \"expectation\": \"I face the tomato, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Tomato\", \"expectation\": \"I pick up a tomato, holding a tomato.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"CounterTop\", \"expectation\": \"I face the countertop, holding a tomato.\"),\n    dict(\"name\": \"SliceObject\", \"arg\": \"Tomato\", \"expectation\": \"I slice the tomato on the countertop, holding sliced tomato.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Toaster\", \"expectation\": \"I face the toaster, holding sliced tomato.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Toaster\", \"expectation\": \"I pick up a toaster, holding a toaster.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"CounterTop\", \"expectation\": \"I face the countertop, holding a toaster.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Toaster\", \"expectation\": \"I put the bread in the toaster to toast, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Plate\", \"expectation\": \"I face the plate, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Plate\", \"expectation\": \"I pick up a plate, holding a plate.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"CounterTop\", \"expectation\": \"I face the countertop, holding a plate.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Plate\", \"expectation\": \"I put the cooked egg, sliced tomato, and toasted bread on the plate, holding nothing.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 843,
-    "completion_tokens": 72,
-    "total_tokens": 915
+    "prompt_tokens": 1924,
+    "completion_tokens": 740,
+    "total_tokens": 2664
   }
 }

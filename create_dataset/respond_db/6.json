@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edu8z11BAXKovJ9IcHThQgPQYvSc",
+  "id": "chatcmpl-7gpEGyJ3O6WPJJhjhL6sNHluXyAIU",
   "object": "chat.completion",
-  "created": 1689920868,
+  "created": 1690441056,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "What would you like me to do with the objects in the room?"
+        "content": "dict(\n    \"instruction\": \"Prepare a sandwich.\",\n    \"thought\": \"The instruction is to prepare a sandwich. We have Bread, Plate, Knife, Lettuce, and Mug available in the room. I'll pick up the Bread, go to the Plate, put it down, pick up the Knife, go to the Bread, slice it, then find Lettuce and put it on the sliced Bread. Finally, I'll put the prepared sandwich on the Plate for you.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Bread\", \"expectation\": \"I face the bread, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Bread\", \"expectation\": \"I pick up a bread, holding a bread.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Plate\", \"expectation\": \"I face the plate, holding a bread.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Plate\", \"expectation\": \"I put the bread down on the plate, holding nothing.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Knife\", \"expectation\": \"I face the knife, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Knife\", \"expectation\": \"I pick up a knife, holding a knife.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Bread\", \"expectation\": \"I face the bread, holding a knife.\"),\n    dict(\"name\": \"SliceObject\", \"arg\": \"Bread\", \"expectation\": \"I slice the bread with the knife, holding sliced bread.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Lettuce\", \"expectation\": \"I face the lettuce, holding sliced bread.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Lettuce\", \"expectation\": \"I pick up lettuce, holding lettuce.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Plate\", \"expectation\": \"I face the plate, holding lettuce.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Plate\", \"expectation\": \"I put the lettuce on the sliced bread, holding nothing.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 847,
-    "completion_tokens": 14,
-    "total_tokens": 861
+    "prompt_tokens": 1943,
+    "completion_tokens": 501,
+    "total_tokens": 2444
   }
 }

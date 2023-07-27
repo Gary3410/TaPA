@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edtZdDNv0YhlywWs4IDRcHbDpjLL",
+  "id": "chatcmpl-7gpD1bj6Kp5Zf84XgmluhuYICH39G",
   "object": "chat.completion",
-  "created": 1689920833,
+  "created": 1690440979,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the blinds and clean the window with a spray bottle and a paper towel. \n    ---\n    Necessary actions:\n    OpenObject(blinds), GotoLocation(window), GotoLocation(spray bottle), PickupObject(spray bottle), GotoLocation(paper towel), PickupObject(paper towel), CleanObject(window)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Clean the dishes.\",\n    \"thought\": \"The instruction is to clean the dishes. We have a Sink, DishSponge, and Bowl available in the room. I'll pick up the DishSponge, go to the Sink, wash the Bowl with the DishSponge, then put it back down.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"DishSponge\", \"expectation\": \"I face the dish sponge, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"DishSponge\", \"expectation\": \"I pick up a dish sponge, holding a dish sponge.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Sink\", \"expectation\": \"I face the sink, holding a dish sponge.\"),\n    dict(\"name\": \"CleanObject\", \"arg\": \"Bowl\", \"expectation\": \"I wash the bowl with the dish sponge and pick it up, holding a clean bowl.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Sink\", \"expectation\": \"I put down the clean bowl in the sink, holding a dish sponge.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 858,
-    "completion_tokens": 70,
-    "total_tokens": 928
+    "prompt_tokens": 1946,
+    "completion_tokens": 273,
+    "total_tokens": 2219
   }
 }

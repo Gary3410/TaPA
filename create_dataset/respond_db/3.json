@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edtjDqu0nGc8HXcFVYp3rsY96huv",
+  "id": "chatcmpl-7gpDHL7boz4F41OLmiXoVDoYm99Q5",
   "object": "chat.completion",
-  "created": 1689920843,
+  "created": 1690440995,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the fridge and pick up an apple.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), PickupObject(apple)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Prepare a salad.\",\n    \"thought\": \"The instruction is to prepare a salad. We have Lettuce, Tomato, Bowl and Knife available in the room. I'll pick up the Lettuce, find the Bowl, slice the Lettuce with the Knife, then find the Tomato and put it in the Bowl for you.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Lettuce\", \"expectation\": \"I face the lettuce, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Lettuce\", \"expectation\": \"I pick up some lettuce, holding lettuce.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Bowl\", \"expectation\": \"I face the bowl, holding lettuce.\"),\n    dict(\"name\": \"SliceObject\", \"arg\": \"Lettuce\", \"expectation\": \"I slice the lettuce with a knife, holding sliced lettuce.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Tomato\", \"expectation\": \"I face the tomato, holding sliced lettuce.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Tomato\", \"expectation\": \"I pick up a tomato, holding a tomato.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Bowl\", \"expectation\": \"I put the tomato in the bowl, holding sliced lettuce.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 840,
-    "completion_tokens": 38,
-    "total_tokens": 878
+    "prompt_tokens": 1954,
+    "completion_tokens": 328,
+    "total_tokens": 2282
   }
 }

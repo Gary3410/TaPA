@@ -1,21 +1,21 @@
 {
-  "id": "chatcmpl-7edtIFmSX4VNiQwS1E7hpLIuLYvGW",
+  "id": "chatcmpl-7gpCKAJWS5aHb82SLr8oEzfC07jxi",
   "object": "chat.completion",
-  "created": 1689920816,
+  "created": 1690440936,
   "model": "gpt-3.5-turbo-0613",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Generate the instruction: Open the fridge, take out the egg, and put it on the plate.\n    ---\n    Necessary actions:\n    GotoLocation(fridge), OpenObject(fridge), GotoLocation(egg), PickupObject(egg), GotoLocation(plate), PutObject(egg)\n    ==="
+        "content": "dict(\n    \"instruction\": \"Cut the potato and fry it in the pan.\",\n    \"thought\": \"The instruction is to cut the potato and fry it in the pan. We have a Knife, Potato, Pan, and StoveBurner available in the room. I'll pick up the Knife, go to the Potato, slice it, find the Pan, go to the StoveBurner, put down the Pan, toggle on the StoveBurner, pick up the Pan, then put the sliced potato into the Pan for frying.\",\n    \"action_list\":[\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Knife\", \"expectation\": \"I face the knife, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Knife\", \"expectation\": \"I pick up a knife, holding a knife.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Potato\", \"expectation\": \"I face the potato, holding a knife.\"),\n    dict(\"name\": \"SliceObject\", \"arg\": \"Potato\", \"expectation\": \"I slice the potato with the knife, holding a sliced potato.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"Pan\", \"expectation\": \"I face the pan, holding a sliced potato.\"),\n    dict(\"name\": \"GotoLocation\", \"arg\": \"StoveBurner\", \"expectation\": \"I face the stove burner, holding a sliced potato.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Pan\", \"expectation\": \"I put down the pan on the stove burner, holding nothing.\"),\n    dict(\"name\": \"ToggleObject\", \"arg\": \"StoveBurner\", \"expectation\": \"I toggle on the stove burner, holding nothing.\"),\n    dict(\"name\": \"PickupObject\", \"arg\": \"Pan\", \"expectation\": \"I pick up the pan, holding a pan.\"),\n    dict(\"name\": \"PutObject\", \"arg\": \"Pan\", \"expectation\": \"I put the sliced potato into the pan for frying, holding a pan with sliced potatoes.\"),\n    dict(\"name\": \"End\", \"arg\": \"\", \"expectation\": \"I finish the task.\"),\n    ])"
       },
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 901,
-    "completion_tokens": 62,
-    "total_tokens": 963
+    "prompt_tokens": 1954,
+    "completion_tokens": 467,
+    "total_tokens": 2421
   }
 }
